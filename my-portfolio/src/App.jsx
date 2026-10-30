@@ -18,24 +18,24 @@ function App() {
   const projects = [
     {
       title: "Multi-Agent AI Business Analyst Platform",
-      desc: "AI-powered BA platform that automates requirements analysis, user story generation, risk analysis, architecture recommendations, semantic memory search, and report generation.",
+      desc: "A tool that speeds up the requirements workflow I do as a BA day to day — drafting user stories and acceptance criteria, flagging risks, and generating supporting documentation from a plain-language business ask.",
       tech: "Python • LangGraph • Gemini • Streamlit • ChromaDB",
       github: "https://github.com/harikrupa-ai/multi-agent-ai-business-analyst",
       demo: "https://multi-agent-ai-business-analyst-45z4issbf2fdhdppkkpgt7.streamlit.app/",
     },
     {
       title: "AI Resume Intelligence Platform",
-      desc: "AI resume analysis platform for resume-job matching, ATS scoring, missing skill detection, semantic search, and interview preparation.",
+      desc: "A tool for matching resumes against job postings — ATS scoring, missing-skill detection, and semantic search — built to make the kind of requirements-to-criteria matching I do as a BA self-serve.",
       tech: "Python • Streamlit • FAISS • NLP • Sentence Transformers",
       github: "https://github.com/harikrupa-ai/ai-resume-intelligence-platform",
       demo: "https://resume-intelligence-platform.streamlit.app/",
     },
     {
-      title: "Sales Profitability Analytics Dashboard",
-      desc: "Business intelligence dashboard for sales, profit, margin, KPI reporting, and performance insights.",
-      tech: "SQL • Tableau • Power BI • Data Analytics",
+      title: "Healthcare Claims Analytics Dashboard",
+      desc: "Interactive dashboard for claims-operations reporting — KPI tracking, denial-reason analysis, and payment-accuracy reporting by payer and provider, filterable by date, payer, claim type, and region.",
+      tech: "Python • Streamlit • Pandas • Plotly",
       github: "https://github.com/harikrupa-ai/sales-profitability-analytics-dashboard",
-      demo: "#",
+      demo: "https://sales-profitability-analytics-dashboard-4wasbu5ysg6tdzwcqm9isd.streamlit.app/",
     },
   ];
 
@@ -50,11 +50,13 @@ function App() {
     "SQL",
     "Power BI",
     "Tableau",
+    "Data Validation",
+    "KPI Reporting",
     "Python",
+    "Streamlit",
     "Generative AI",
     "LangGraph",
     "RAG",
-    "Streamlit",
   ];
 
   return (
@@ -70,11 +72,13 @@ function App() {
 
         <h1>Hari Krupa Cheguri</h1>
 
-        <h2>Business Analyst | Generative AI | Data Analytics</h2>
+        <h2>Business Analyst | Data Analytics | Requirements & Agile Delivery</h2>
 
         <p className="description">
-          I build AI-powered business solutions using Python, LangGraph,
-          Streamlit, SQL, Power BI, Tableau, and Generative AI.
+          5+ years translating stakeholder needs into requirements,
+          validating data at scale with SQL, and building dashboards that
+          drive decisions — across health insurance, banking, and enterprise
+          analytics.
         </p>
 
         <div className="buttons">
@@ -87,7 +91,7 @@ function App() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/hari-krupa-ch/"
+            href="https://www.linkedin.com/in/krupa-ch-57308220b/"
             target="_blank"
             rel="noreferrer"
             className="btn-outline"
@@ -101,7 +105,7 @@ function App() {
             <FaGithub />
           </a>
 
-          <a href="https://www.linkedin.com/in/hari-krupa-ch/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/krupa-ch-57308220b/" target="_blank" rel="noreferrer">
             <FaLinkedin />
           </a>
 
@@ -114,11 +118,13 @@ function App() {
       <section className="section">
         <h2>About Me</h2>
         <p className="about-text">
-          I am a Business Analyst and AI enthusiast with experience in
-          requirements analysis, Agile delivery, SQL, Power BI, Tableau,
-          Python, and Generative AI application development. I focus on
-          building practical business and analytics solutions that improve
-          decision-making, automation, and operational efficiency.
+          I'm a Business Analyst with 5+ years of experience across health
+          insurance, banking, and enterprise analytics. I turn stakeholder
+          needs into BRDs, FRDs, user stories, and acceptance criteria,
+          validate data at scale with SQL (8M+ healthcare claims records),
+          and carry requirements through UAT and release. I also build
+          Power BI and Tableau dashboards, and use AI-assisted workflows to
+          speed up reporting and analysis.
         </p>
       </section>
 
@@ -191,7 +197,7 @@ function App() {
             <FaGithub />
           </a>
 
-          <a href="https://www.linkedin.com/in/hari-krupa-ch/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/krupa-ch-57308220b/" target="_blank" rel="noreferrer">
             <FaLinkedin />
           </a>
 
