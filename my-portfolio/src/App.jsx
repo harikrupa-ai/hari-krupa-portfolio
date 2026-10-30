@@ -17,18 +17,18 @@ function App() {
 
   const projects = [
     {
+      title: "BA Command Center",
+      desc: "An end-to-end BA pipeline: a plain-English business ask becomes a BRD/FRD/user stories/RAID log, each requirement's metric is validated with real SQL against a 120K-row relational claims database, a dashboard auto-generates from the validated metrics, and a full requirement-to-chart traceability matrix ties it all together — the actual BA delivery chain, not a chat window wrapped around an LLM.",
+      tech: "Python • Streamlit • SQLite • Plotly • OpenAI API",
+      github: "https://github.com/harikrupa-ai/ba-command-center",
+      demo: "https://ba-command-center.streamlit.app/",
+    },
+    {
       title: "Multi-Agent AI Business Analyst Platform",
       desc: "A tool that speeds up the requirements workflow I do as a BA day to day — drafting user stories and acceptance criteria, flagging risks, and generating supporting documentation from a plain-language business ask.",
       tech: "Python • LangGraph • Gemini • Streamlit • ChromaDB",
       github: "https://github.com/harikrupa-ai/multi-agent-ai-business-analyst",
       demo: "https://multi-agent-ai-business-analyst-45z4issbf2fdhdppkkpgt7.streamlit.app/",
-    },
-    {
-      title: "AI Resume Intelligence Platform",
-      desc: "A tool for matching resumes against job postings — ATS scoring, missing-skill detection, and semantic search — built to make the kind of requirements-to-criteria matching I do as a BA self-serve.",
-      tech: "Python • Streamlit • FAISS • NLP • Sentence Transformers",
-      github: "https://github.com/harikrupa-ai/ai-resume-intelligence-platform",
-      demo: "https://resume-intelligence-platform.streamlit.app/",
     },
     {
       title: "Healthcare Claims Analytics Dashboard",
