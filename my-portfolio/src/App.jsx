@@ -34,7 +34,7 @@ function App() {
       title: "Healthcare Claims Analytics Dashboard",
       desc: "Interactive dashboard for claims-operations reporting — KPI tracking, denial-reason analysis, and payment-accuracy reporting by payer and provider, filterable by date, payer, claim type, and region.",
       tech: "Python • Streamlit • Pandas • Plotly",
-      github: "https://github.com/harikrupa-ai/sales-profitability-analytics-dashboard",
+      github: "https://github.com/harikrupa-ai/healthcare-claims-analytics-dashboard",
       demo: "https://sales-profitability-analytics-dashboard-4wasbu5ysg6tdzwcqm9isd.streamlit.app/",
     },
   ];
